@@ -115,7 +115,7 @@ macro_rules! impl_shallow_copy_for_copy_primitives {
     )*)
 }
 
-impl_shallow_copy_for_copy_primitives!(() bool char usize u8 u16 u32 u64 isize i8 i16 i32 i64);
+impl_shallow_copy_for_copy_primitives!(() bool char usize u8 u16 u32 u64 isize i8 i16 i32 i64 u128 i128);
 
 macro_rules! tuple_impls {
     ($(
